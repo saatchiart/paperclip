@@ -12,6 +12,8 @@ gem 'racc', :platforms => :rbx
 
 gem 'pry'
 
+gem 'mimemagic', git: 'https://github.com/saatchiart/mimemagic', branch: 'restore-030'
+
 # Hinting at development dependencies
 # Prevents bundler from taking a long-time to resolve
 group :development, :test do
